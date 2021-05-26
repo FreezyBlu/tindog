@@ -1,0 +1,195 @@
+body
+{
+  font-family: 'Montserrat thin';
+  text-align: center;
+}
+.big-heading
+{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight:bolder;
+  text-align: left;
+}
+h2,h3
+{
+  font-family: 'Montserrat', sans-serif;
+}
+h2
+{
+
+  font-size: 2.5rem;
+  line-height:1.5;
+}
+h3
+{
+
+  font-size: 1.5rem;
+}
+p{
+  color: #8f8f8f;
+}
+.container-fluid
+{
+  padding:3% 13% ;
+}
+
+.navbar
+{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item
+{
+  padding: 0 18px;
+}
+.navbar-nav
+{
+  margin-left:  auto;
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: "Montserrat-thin"
+}
+.fixed
+{
+  position: fixed;
+}
+/* downloadbuttons */
+.downloadbutton
+{
+  margin: 5% 3% 5% 0;
+}
+.icon
+{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover
+{
+  color: #ff4c68;
+}
+.col-lg-4
+{
+  padding-bottom: 8%;
+  padding-top: 8%;
+}
+
+.dog
+{
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.girl
+{
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#title
+{
+   background-color: #ff4c68;
+   color: white;
+}
+#press
+{
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+}
+.press-logo
+{
+  width:15%;
+  margin: 5px 20px 50px;
+}
+.carousel-item
+{
+  padding:25% 25% 5% ;
+}
+
+#pricing{
+  padding: 100px;
+}
+.col-lg-4
+{
+  padding: 3% 2%;
+}
+
+ #features
+{
+  padding:7% 20%;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  top:85%;
+
+}
+.mobile
+{
+  transform: rotate(25deg) ;
+  width: 60%;
+  z-index: -1;
+
+}
+#testimonials
+{
+
+  background-color: #ff4c68;
+  color: white;
+
+}
+#cta
+{
+  background-color: #ff4c68;
+  color: white;
+
+}
+.final
+{
+  padding: 50px 18% 20px;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+#footer
+{
+  background-color: white;
+  padding: 7% 15%;
+}
+.contactic
+{
+
+   margin: 20px 10px;
+}
+
+@media (max-width:1028px) {
+   #features
+   {
+     position: static;
+   }
+   .mobile
+   {
+     transform: rotate(0);
+   }
+   #title{
+     text-align: center;
+   }
+}
+/* <script  defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script> */
+
+
+/* <link rel="preconnect" href="https://fonts.gstatic.com"> */
+/* <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> */
+/* <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap"
+rel="stylesheet"> */
+
+/* <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> */
+
+/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> */
